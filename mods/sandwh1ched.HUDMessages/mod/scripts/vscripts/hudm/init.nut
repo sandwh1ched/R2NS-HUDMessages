@@ -4,6 +4,8 @@
 // To-do:
 // - Add minimally intrusive update checking
 
+globalize_all_functions
+
 // Does the logic loop.
 // Requires threading.
 void function HUDM_loop() {
