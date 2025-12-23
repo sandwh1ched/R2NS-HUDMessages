@@ -19,7 +19,7 @@ Usages could be:
 Please adhere to these style guidelines.
 - 4-width soft (space) tabs
 - Ensure each logic file has a descriptive banner:
-```c
+```cpp
 // {description}
 // All code is licensed under the BSD 3-clause license -- see `LICENSE`
 //
@@ -30,9 +30,9 @@ Please adhere to these style guidelines.
 - Code block opening brace stays on the same line as defining keywords (such as `function`), while closing brace gets its own
 - Function names are camelCase, while structs/enums/etc. are PascalCase.
 
-## QnA
+## Q & A
 **Q:** Why was CYNHUD deprecated?  
-**A:** It was written horribly 😅 It was very janky, and was single-file.  
+**A:** It was written horribly 😅 It was very janky, and was single-file. (And I thought it was too quirky)  
 <sub>Though it was somewhat small, so I guess it was fine.<sub>
 
 ## Credits
