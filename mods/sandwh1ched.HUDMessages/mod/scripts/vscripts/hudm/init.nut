@@ -2,7 +2,8 @@
 // All code is licensed under the BSD 3-clause license -- see `LICENSE`
 //
 // To-do:
-// - Add minimally intrusive update checking
+//   - Fix the loop function
+//   - Add minimally intrusive update checking
 
 global function HUDM_init;
 
