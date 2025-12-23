@@ -4,6 +4,13 @@
 globalize_all_functions
 
 // Assembles a new message RUI.
+//
+// Parameters:
+//   `vector position` - The position on the screen that the message should be at. Z-coordinate will be ignored. (afaik)
+//   `string text` - The text of the message. Dynamic message support coming soon.
+//
+// Returns:
+//   `var` - The initialized RUI. It uses `var` because in rSquirrel there's no dedicated RUI type.
 var function HUDM_createMessage(vector position, string text) {
     var rui = RuiCreate($"ui/cockpit_console_text_top_left.rpak", clGlobal.topoCockpitHudPermanent, RUI_DRAW_COCKPIT, 0);
   	RuiSetInt(rui, "maxLines", 1);
