@@ -4,7 +4,7 @@
 // To-do:
 // - Add minimally intrusive update checking
 
-globalize_all_functions
+global function HUDM_init;
 
 // Does the logic loop.
 // Requires threading.
