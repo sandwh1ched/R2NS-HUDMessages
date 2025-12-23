@@ -1,5 +1,5 @@
 // Message logic script
-// All code is licensed under the BSD 2-clause license -- see `LICENSE`
+// All code is licensed under the BSD 3-clause license -- see `LICENSE`
 
 globalize_all_functions
 

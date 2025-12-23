@@ -21,7 +21,7 @@ Please adhere to these style guidelines.
 - Ensure each logic file has a descriptive banner:
 ```c
 // {description}
-// All code is licensed under the BSD 2-clause license -- see `LICENSE`
+// All code is licensed under the BSD 3-clause license -- see `LICENSE`
 //
 // Section:
 //   Lorem ipsum
